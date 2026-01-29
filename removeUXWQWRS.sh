@@ -22,5 +22,7 @@ rm -rvf ./rtl-sdr
 echo "RTL-SDR driver removal completed."
 apt purge sdrpp --assume-yes
 echo "SDR++ removal completed."
+apt purge pulseaudio* --assume-yes
+echo "pulseaudio removal completed."
 apt autoremove --assume-yes
 echo "All unused dependencies removed."
