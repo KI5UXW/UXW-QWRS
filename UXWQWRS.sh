@@ -35,4 +35,5 @@ wget -O thePackage.deb https://github.com/AlexandreRouma/SDRPlusPlus/releases/do
 apt install ./thePackage.deb -f --assume-yes
 echo "SDR++ installed."
 apt install pulseaudio -f --assume-yes
+echo "PulseAudio installed."
 echo "Reboot your machine to finish installation of the RTL-SDR drivers & run rtl_test to test if the process worked."
