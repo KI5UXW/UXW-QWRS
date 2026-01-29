@@ -34,4 +34,5 @@ sleep 1
 wget -O thePackage.deb https://github.com/AlexandreRouma/SDRPlusPlus/releases/download/nightly/sdrpp_ubuntu_noble_amd64.deb
 apt install ./thePackage.deb -f --assume-yes
 echo "SDR++ installed."
+apt install pulseaudio -f --assume-yes
 echo "Reboot your machine to finish installation of the RTL-SDR drivers & run rtl_test to test if the process worked."
