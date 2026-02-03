@@ -24,6 +24,6 @@ apt purge sdrpp --assume-yes
 echo "SDR++ removal completed."
 apt purge pulseaudio* --assume-yes
 echo "pulseaudio removal completed."
-apt purge gpredit --assume-yes
+apt purge gpredict* --assume-yes
 apt autoremove --assume-yes
 echo "All unused dependencies removed."
