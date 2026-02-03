@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "UXW-QWRS/Satcom"
+echo "UXW-QWRS/Satcom for Raspberry Pi"
 echo "Copyright 2026 James Ervin"
 echo "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:"
 echo "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
@@ -37,4 +37,5 @@ echo "SDR++ installed."
 apt install pulseaudio -f --assume-yes
 echo "PulseAudio installed."
 apt install gpredict -f --assume-yes
+sudo usermod -a -G dialout $USER
 echo "Reboot your machine to finish installation of the RTL-SDR drivers & run rtl_test to test if the process worked."
