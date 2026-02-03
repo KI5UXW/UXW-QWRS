@@ -38,5 +38,5 @@ echo "SDR++ installed."
 apt install pulseaudio -f --assume-yes
 echo "PulseAudio installed."
 apt install gpredict -f --assume-yes
-sudo usermod -a -G dialout $USER
+usermod -a -G dialout $USER
 echo "Reboot your machine to finish installation of the RTL-SDR drivers & run rtl_test to test if the process worked."
