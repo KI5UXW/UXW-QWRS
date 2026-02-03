@@ -31,7 +31,7 @@ ldconfig
 echo 'blacklist dvb_usb_rtl28xxu' | sudo tee --append /etc/modprobe.d/blacklist-dvb_usb_rtl28xxu.conf
 echo "RTL-SDR drivers installed."
 sleep 1
-wget -O thePackage.deb https://github.com/AlexandreRouma/SDRPlusPlus/releases/download/nightly/sdrpp_ubuntu_noble_amd64.deb
+wget -O thePackage.deb https://github.com/AlexandreRouma/SDRPlusPlus/releases/download/nightly/sdrpp_debian_trixie_aarch64.deb
 apt install ./thePackage.deb -f --assume-yes
 echo "SDR++ installed."
 apt install pulseaudio -f --assume-yes
